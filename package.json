@@ -1,0 +1,28 @@
+{
+  "name": "bbb-api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparlingo/authorizer.git"
+  },
+  "keywords": [],
+  "author": "Kevin Sparling",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sparlingo/authorizer/issues"
+  },
+  "homepage": "https://github.com/sparlingo/authorizer#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.11",
+    "validator": "^12.2.0"
+  }
+}
