@@ -12,6 +12,6 @@ const userRouter = require('./routers/User')
 app.use('/api', userRouter)
 
 const port = process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 8000;
-const server = app.listen(port, () => {
+app.listen(port, () => {
   console.log("server running on port " + port)
 })
